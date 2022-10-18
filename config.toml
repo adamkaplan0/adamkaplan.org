@@ -20,18 +20,17 @@ theme = "LoveIt"
     title = "Home"
   [[menu.main]]
     weight = 2
-    identifier = "cv"
-    name = "CV"
-    url = "https://storage.adamkaplan.org/AdamKaplan.pdf"
+    identifier = "Resume"
+    name = "Resume"
+    url = "https://storage.adamkaplan.org/Resume.pdf"
     # title will be shown when you hover on this menu link
-    title = "CV"
-
+    title = "Resume"
 [params]
   # public git repo url only then enableGitInfo is true
   gitRepo = "https://github.com/adamkaplan0/adamkaplan.org"
   title = "Adam Kaplan"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "Hi! I'm Adam Kaplan, PhD candidate in Political Science and Statistics (joint) at the Massachusetts Institute of Technology (MIT), concentrating in political methodology and international relations. I study causal inference with time-series, develop R packages, create/lead workshops, and publish web applications to help people and make research easier and faster."
+  description = "Hi! I'm Adam Kaplan, PhD candidate in Political Science and Statistics (joint) at the Massachusetts Institute of Technology (MIT), concentrating in political methodology and international relations. I study causal inference with time-series, develop R packages, consult on statistical modeling, create/lead workshops, and publish web applications to help people and make research easier and faster."
 
   # Header config
   [params.header]
@@ -46,7 +45,7 @@ theme = "LoveIt"
   [params.footer]
     enable = true
     # whether to show Hugo and theme info
-    hugo = true
+    hugo = false
     # whether to show copyright info
     copyright = true
     # whether to show the author
@@ -81,7 +80,7 @@ theme = "LoveIt"
       # title shown in home page (HTML format is supported)
       title = "Adam Kaplan"
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "<div align=\"left\"><p><strong>Hi!</strong> I'm Adam Kaplan, PhD candidate in Political Science and Statistics (joint) at the <a href=\"https://polisci.mit.edu/people/adam-kaplan\" style=\"border-bottom: 1px dotted;\">Massachusetts Institute of Technology (MIT)</a>, concentrating in political methodology and international relations. I study causal inference with time-series, develop R packages, create/lead workshops, and publish web applications to help people and make research easier and faster.<br><br>Currently I am working on:<ul><li>Developing a model-agnostic procedure to estimate heterogeneous treatment effects in time-series cross-sectional data and packaging it in an easy-to-use R package.</li><li>Extending an experimental design developed to estimate the effect of media source choice on polarization to account for confounding variables (with <a href=\"http://web.mit.edu/teppei/www/\" style=\"border-bottom: 1px dotted;\">Teppei Yamamoto</a>).</li><li>Maintaining the <a href=\"https://www.latextableviewer.com/\" style=\"border-bottom: 1px dotted;\">LaTeX Table Viewer</a> web application, which allows one to quickly compile LaTeX code locally, without having to have LaTeX installed.</li></ul>Outside of work, I love to rock climb, bake bread, and explore breweries in the New England area.</p></div>"
+      subtitle = "<div align=\"left\"><p><strong>Hi!</strong> I'm Adam Kaplan, PhD candidate in Political Science and Statistics (joint) at the <a href=\"https://polisci.mit.edu/people/adam-kaplan\" style=\"border-bottom: 1px dotted;\">Massachusetts Institute of Technology (MIT)</a>, concentrating in political methodology and international relations. I study causal inference with time-series, develop R packages, consult on statistical modeling, create/lead workshops, and publish web applications to help people and make research easier and faster.<br><br>Currently I am working on:<ul><li>Developing a model-agnostic procedure to estimate heterogeneous treatment effects in time-series cross-sectional data and packaging it in an easy-to-use R package.</li><li>Extending an experimental design developed to estimate the effect of media source choice on polarization to account for confounding variables (with <a href=\"http://web.mit.edu/teppei/www/\" style=\"border-bottom: 1px dotted;\">Teppei Yamamoto</a>).</li><li>Maintaining the <a href=\"https://www.latextableviewer.com/\" style=\"border-bottom: 1px dotted;\">LaTeX Table Viewer</a> web application, which allows one to quickly compile LaTeX code locally, without having to have LaTeX installed.</li><li>... All of my older projects are on <a href=\"https://github.com/adamkaplan0\" style=\"border-bottom: 1px dotted;\">GitHub</a> and <a href=\"https://www.linkedin.com/in/adamkaplan0/\" style=\"border-bottom: 1px dotted;\">LinkedIn</a>.</ul>Outside of work, I love to rock climb, bake bread, and explore breweries in the New England area.</p></div>"
       # whether to use typeit animation for subtitle
       typeit = false
       # whether to show social links
