@@ -21,10 +21,10 @@ theme = "LoveIt"
   [[menu.main]]
     weight = 2
     identifier = "CV"
-    name = "CV"
-    url = "https://storage.adamkaplan.org/CV.pdf"
+    name = "Resume"
+    url = "https://storage.adamkaplan.org/Resume.pdf"
     # title will be shown when you hover on this menu link
-    title = "CV"
+    title = "Resume"
 [params]
   # public git repo url only then enableGitInfo is true
   gitRepo = "https://github.com/adamkaplan0/adamkaplan.org"
